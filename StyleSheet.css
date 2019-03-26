@@ -1,0 +1,39 @@
+<style>
+ul {
+  padding: 10px;
+  background: black;
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+a {
+  color: white;
+}
+header{
+  text-align: center;
+  background: url(https://data1.ibtimes.co.in/en/full/613326/mongol-rally.jpg);
+  background-size: cover;
+  color: black;
+}
+h1 {
+  font-size: 80px
+}
+h2 {
+  font-size: 30px
+}
+h3 {
+  font-size: 30px
+}
+img {
+  margin: auto;
+  border: 5px solid black;
+  border-radius:20px;
+}
+</style>
+  <ul>
+    <li><a href="#">About the rally</a></li>
+    <li><a href="#">Our story</a></li>
+    <li><a href="#"> Contact</a></li>
+  </ul>
+</header>
