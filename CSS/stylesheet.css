@@ -1,29 +1,40 @@
-
+p{
+  font-family: helvetica;
+}
 header{
     text-align: center;
     background: url(https://data1.ibtimes.co.in/en/full/613326/mongol-rally.jpg);
     background-size: cover;
     color: black;
+    font-family: helvetica;
   }
 ul {
   padding: 10px;
   background: black;
+  font-family: helvetica;
 }
 li {
   display: inline;
   padding: 0px 10px 0px 10px;
+  font-family: helvetica;
 }
 a {
   color: white;
+  font-family: helvetica;
 }
 h1 {
   font-size: 80px
+  font-family: helvetica;
 }
 h2 {
   font-size: 30px
+  font-family: helvetica;
+  font-style: italic;
 }
 h3 {
   font-size: 30px
+  font-family: helvetica;
+  font-style: italic;
 }
 img {
   margin: auto;
