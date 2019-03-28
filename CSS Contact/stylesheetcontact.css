@@ -14,7 +14,7 @@ header.masthead{
   }
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 10px;
+    padding-top: 50px;
     padding-bottom: 10px;
   }
   header.masthead .intro-text .intro-heading {
@@ -58,4 +58,10 @@ ul {
   display: inline-block;
   list-style: outside none none;
   align-items: flex-start;
+}
+.container2 {
+  color: black;
+  font-style: normal;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

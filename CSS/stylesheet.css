@@ -64,3 +64,11 @@ img {
   border: 5px solid black;
   border-radius:20px;
 }
+.container1 {
+  font-family: helvetica;
+  align-items: center; 
+  color: black;
+  font-style: normal;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
