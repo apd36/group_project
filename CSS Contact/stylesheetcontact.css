@@ -24,7 +24,6 @@ header.masthead{
       margin-bottom: 50px;
       font-family: helvetica;
       align-items: center;
-
     }
 .container {
   font-family: helvetica;
@@ -36,14 +35,20 @@ header.masthead{
   text-align:left;
   vertical-align: middle;
 }
-
+container1{
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+}
 header{
     text-align: center;
     background: url(https://data1.ibtimes.co.in/en/full/613326/mongol-rally.jpg);
     background-size: cover;
-    color: white;
+    color: black;
     font-family: helvetica;
-    font-style: italic;
+    font-style: normal;
+}
+span{
+  color: white;
 }
 h1 {
   font-size: 80px
@@ -64,4 +69,8 @@ ul {
   font-style: normal;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+button{
+  background-color: transparent;
+  border-color: transparent;
 }

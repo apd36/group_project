@@ -30,7 +30,9 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 50px;
     font-family: helvetica;
   }
-
+span {
+  background-color: white;
+}
 ul {
   padding: 10px;
   background: black;
@@ -66,7 +68,7 @@ img {
 }
 .container1 {
   font-family: helvetica;
-  align-items: center; 
+  align-items: center;
   color: black;
   font-style: normal;
   padding-top: 20px;
