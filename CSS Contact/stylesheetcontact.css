@@ -49,6 +49,7 @@ header{
 }
 span{
   color: white;
+  border-bottom: 1px solid white;
 }
 h1 {
   font-size: 80px
