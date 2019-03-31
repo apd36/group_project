@@ -71,10 +71,7 @@ ul {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-button{
+button {
   background-color: transparent;
   border-color: transparent;
-}
-.carousel {
-  background-size: auto;
 }
