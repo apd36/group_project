@@ -1,0 +1,80 @@
+p{
+  font-family: helvetica;
+}
+
+header.masthead{
+    text-align: center;
+    background: url(mongol-rally.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: black;
+    font-family: helvetica;
+  }
+@media (min-width: 768px) {
+  header.masthead .intro-text {
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+  header.masthead .intro-text .intro-heading {
+      font-size: 75px;
+      font-weight: 700;
+      line-height: 75px;
+      margin-bottom: 50px;
+      font-family: helvetica;
+      align-items: center;
+    }
+.container {
+  font-family: helvetica;
+  color: white
+  display: inline;
+  list-style: none;
+  text-align: left;
+  background-color: black;
+  text-align:left;
+  vertical-align: middle;
+}
+container1{
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+}
+header{
+    text-align: center;
+    background: url(https://data1.ibtimes.co.in/en/full/613326/mongol-rally.jpg);
+    background-size: cover;
+    color: black;
+    font-family: helvetica;
+    font-style: normal;
+}
+span{
+  color: white;
+  border-bottom: 1px solid white;
+}
+h1 {
+  font-size: 80px
+  font-family: helvetica;
+  align-items: center;
+}
+iframe {
+  align-items: center;
+  align-content: center;
+}
+ul {
+  display: inline-block;
+  list-style: outside none none;
+  align-items: flex-start;
+}
+.container2 {
+  color: black;
+  font-style: normal;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+button{
+  background-color: transparent;
+  border-color: transparent;
+}
+.carousel {
+  background-size: auto;
+}
