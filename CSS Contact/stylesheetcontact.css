@@ -75,3 +75,6 @@ button{
   background-color: transparent;
   border-color: transparent;
 }
+.carousel {
+  background-size: auto;
+}
