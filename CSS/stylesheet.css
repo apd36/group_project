@@ -14,6 +14,7 @@ header.masthead{
   header.masthead .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
+    font-family: helvetica;
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
@@ -48,15 +49,25 @@ a {
   font-family: helvetica;
 }
 h1 {
+  text-align: center;
   font-size: 80px
   font-family: helvetica;
 }
 h2 {
-  font-size: 30px
+  text-align: center;
+  font-size: 40px
   font-family: helvetica;
   font-style: italic;
 }
 h3 {
+    text-align: center;
+  font-size: 35px
+  font-family: helvetica;
+  font-style: italic;
+}
+
+h4 {
+  text-align: center;
   font-size: 30px
   font-family: helvetica;
   font-style: italic;
