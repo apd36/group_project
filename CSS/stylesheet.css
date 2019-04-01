@@ -72,6 +72,9 @@ li a:hover {
 .active {
   background-color: #4CAF50;
 }
+#AbouttheRally {
+  background-color: LightSkyBlue;
+}
 .rules{
   display: block;
   font-family: helvetica;
@@ -91,6 +94,9 @@ li a:hover {
 .subtext{
   font-family: helvetica;
   font-style: italic;
+}
+#SponsorUs {
+  background-color: LightSkyBlue;
 }
 button {
   background-color: transparent;
