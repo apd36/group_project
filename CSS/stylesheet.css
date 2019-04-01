@@ -10,15 +10,28 @@ a {
 }
 h1 {
   text-align: center;
-  font-size: 70px
+  font-size: 80px
   font-family: helvetica;
 }
 
 h2 {
   text-align: center;
+  color: black;
   font-size: 50px;
   color: black;
 }
+<<<<<<< HEAD
+h2 {
+    text-align: center;
+  font-size: 40px
+  font-family: helvetica;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px
+  font-family: helvetica;
+=======
 h3 {
   font-size: 30px
   font-style: italic;
@@ -26,6 +39,7 @@ h3 {
 h4 {
   font-size: 30px
   font-style: italic;
+>>>>>>> 6a8ebeb8ccbf42feb511b46e0c881418fff89ea6
 }
 
 img {
@@ -35,7 +49,7 @@ img {
   margin-right: auto;
   height: 200px;
   border: 3px solid black;
-  border-radius:100px;
+  border-radius:360px;
 }
 ul {
   list-style-type: none;
@@ -68,5 +82,17 @@ li a:hover {
 
 @media screen and (max-width: 600px) {
   ul.topnav li.right,
-  ul.topnav li {float: none;
-  }
+  ul.topnav li {float: none;}
+
+.container1 {
+  font-family: helvetica;
+  align-items: center;
+  color: black;
+  font-style: normal;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+button {
+  background-color: transparent;
+  border-color: transparent;
+}
