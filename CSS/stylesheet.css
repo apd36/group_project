@@ -2,10 +2,13 @@ header {
   font-family: helvetica;
   background: url(https://data1.ibtimes.co.in/en/full/613326/mongol-rally.jpg);
   background-size: cover;
-  background position: center;
+  background-position: center;
   color: black;
 }
-a {
+span{
+  background-color: white;
+}
+p {
   font-family: helvetica;
 }
 h1 {
@@ -19,22 +22,14 @@ h2 {
   color: black;
   font-size: 50px;
   color: black;
+  font-style: italic;
 }
-<<<<<<< HEAD
-h2 {
-    text-align: center;
-  font-size: 40px
-  font-family: helvetica;
-}
-
-h2 {
-  text-align: center;
-  font-size: 40px
-  font-family: helvetica;
-=======
 h3 {
+=======
+h2 {
   font-size: 30px
   font-style: italic;
+  font-family: helvetica;
 }
 h4 {
   font-size: 30px
@@ -42,11 +37,12 @@ h4 {
 >>>>>>> 6a8ebeb8ccbf42feb511b46e0c881418fff89ea6
 }
 
-img {
+.logo {
   margin: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: auto;
   height: 200px;
   border: 3px solid black;
   border-radius:360px;
@@ -64,6 +60,7 @@ ul {
 
 li{
   float: left;
+  font-family: helvetica;
 }
 
 li a {
@@ -79,7 +76,20 @@ li a:hover {
 .active {
   background-color: #4CAF50;
 }
-
+.rules{
+  display: block;
+  font-family: helvetica;
+  font-weight: bold;
+  font-style: italic;
+  color: black;
+}
+button {
+  background-color: transparent;
+  border-color: transparent;
+}
+.container1{
+  font-family: helvetica;
+}
 @media screen and (max-width: 600px) {
   ul.topnav li.right,
   ul.topnav li {float: none;}
