@@ -3,36 +3,58 @@ header {
   background: url(https://data1.ibtimes.co.in/en/full/613326/mongol-rally.jpg);
   background-size: cover;
   background-position: center;
+  margin: 0;
   color: black;
 }
 span{
-  background-color: white;
+  background-color: transparent;
 }
-p {
+body {
   font-family: helvetica;
+  color: white;
+  font-size: 18px;
 }
 h1 {
   text-align: center;
-  font-size: 80px
+  font-size: 60px;
   font-family: helvetica;
+  color: black;
+  font-weight: bold;
 }
 h2 {
   text-align: center;
-  color: black;
   font-size: 50px;
-  color: black;
-  font-style: italic;
-}
-h2 {
-  font-size: 30px
-  font-style: italic;
   font-family: helvetica;
+  color: white;
+  font-style: italic;
+  padding-top: 50px;
+}
+p {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+ol {
+  color: white;
+  font-weight: normal;
+  font-style: normal;
+  padding-left: 230px;
+}
+h3 {
+  text-align: center;
+  font-size: 50px;
+  font-family: helvetica;
+  color: white;
+  font-style: italic;
+  padding-top: 50px;
 }
 h4 {
-  font-size: 30px
+  text-align: center;
+  font-size: 50px;
+  font-family: helvetica
+  color: white;
   font-style: italic;
+  padding-top: 50px;
 }
-
 .logo {
   margin: auto;
   display: block;
@@ -52,11 +74,13 @@ ul {
   position: sticky;
   top: 0;
   width: 100%;
+  font-size: 15px;
 }
 
 li{
   float: left;
   font-family: helvetica;
+  color: white;
 }
 
 li a {
@@ -73,7 +97,7 @@ li a:hover {
   background-color: #4CAF50;
 }
 #AbouttheRally {
-  background-color: LightSkyBlue;
+  background-color: Olive;
 }
 .rules{
   display: block;
@@ -95,8 +119,11 @@ li a:hover {
   font-family: helvetica;
   font-style: italic;
 }
+#OurStory {
+  background-color: gray;
+}
 #SponsorUs {
-  background-color: LightSkyBlue;
+  background-color: Olive;
 }
 button {
   background-color: transparent;
