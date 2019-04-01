@@ -5,7 +5,7 @@
   <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
-
+<body>
 <header>
   <ul>
   <li><a href="#AbouttheRally""default.asp">About the Rally</a></li>
@@ -16,10 +16,7 @@
 <img class="logo" src="logo.jpg">
 <h1><span> Welcome To Our Adventure </span></h1>
 </header>
-
-  <body>
-    <div>
-    <section id="AbouttheRally">
+    <div id="AbouttheRally">
       <center>
         <h2> A b o u t &nbsp; &nbsp; t h e &nbsp; &nbsp; R a l l y </h2>
       </center>
@@ -36,10 +33,7 @@
         </p>
       <center>
         <p> The organizers ("The Adventurists") are careful to point out that racing on highways is illegal. There are other differences from mainstream rallies, particularly the fact that no support team is provided and no other arrangements are made such as for accommodation, maintenance, or fuel. </p>
-      </center>
-    </section>
-    </div>
-    <section id="OurStory">
+      </center><div id="OurStory">
       <center>
         <h3> O u r &nbsp; &nbsp; S t o r y </h3>
       </center>
@@ -57,8 +51,8 @@
       <center>
         <p class="subtext"> Left to right: Sophie, Alana, Annabelle, Jeanne </p>
       </center>
-    </section>
-    <section id="SponsorUs">
+    </div><!--
+      ---><section id="SponsorUs">
       <center>
         <h4> S p o n s o r &nbsp; &nbsp; U s </h4>
       </center>
@@ -70,7 +64,14 @@
         <p> The money donated through our JustGiving page goes directly to the charity. </p>
         <img src= "cool earth.jpg" alt="Cool Earth" width="180" height="50">
       </center>
-    </section>
+</article>
+
+    <div>
+      <center><button> Facebook </button> <button> Twitter </button> <button> Instagram </button></center>
+    </div>
+
+    </div>
+    <div>
 
       <center>
         <div>
@@ -87,3 +88,4 @@
         <script> $ ("button").on("click", function(){alert("clicked!")})</script>
       </center>
 </body>
+</html>
