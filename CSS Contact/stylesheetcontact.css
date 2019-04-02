@@ -71,6 +71,7 @@ iframe {
   width: 550px;
   height: 900px;
   margin: 0 auto;
+  align-items: center;
 
 }
 ul {
@@ -84,6 +85,7 @@ ul {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
+  font-family: helvetica;
 
 }
 button {
