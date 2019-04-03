@@ -63,8 +63,8 @@ h4 {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
-  height: 200px;
-  border: 3px solid black;
+  height: 220px;
+  border: 2px solid black;
   border-radius:360px;
 }
 ul {
@@ -100,6 +100,9 @@ li a:hover {
 }
 #AbouttheRally {
   background-color: Olive;
+  padding-bottom: 200px;
+  padding-top: 70px;
+  display: block;
 }
 .rules{
   display: block;
@@ -123,6 +126,7 @@ li a:hover {
 }
 #OurStory {
   background-color: gray;
+  padding-bottom: 150px;
 }
 #SponsorUs {
   background-color: Olive;
@@ -131,9 +135,7 @@ button {
   background-color: transparent;
   border-color: transparent;
 }
-.container1{
-  font-family: helvetica;
-}
+
 @media screen and () {
   ul.topnav li.right,
   ul.topnav li {float: none;}

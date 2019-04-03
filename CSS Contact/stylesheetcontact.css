@@ -8,7 +8,7 @@ header {
 
 }
 body{
-  background: url(https://data1.ibtimes.co.in/en/full/613326/mongol-rally.jpg);
+  background-image: url(/Users/user/Documents/GitHub/group_project/mongolrally2.jpg);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -59,19 +59,25 @@ container1{
   padding: 10px 10px 10px 10px;
 }
 
-span{
-  color: white;
-}
 h1 {
-  font-size: 80px
+  font-size: 70px;
   font-family: helvetica;
   text-align: center;
+  background-color: olive;
+  color: white;
+  font-style: italic;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-iframe {
-  width: 550px;
-  height: 900px;
-  margin: 0 auto;
-
+.form {
+  display: block;
+  text-align: center;
+}
+iframe{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
 }
 ul {
   display: inline-block;
@@ -79,13 +85,15 @@ ul {
   align-items: flex-start;
 }
 .container2 {
-  color: black;
+  color: white;
   font-style: normal;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
+  font-family: helvetica;
 
 }
+
 button {
   background-color: transparent;
   border-color: transparent;
