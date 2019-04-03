@@ -6,7 +6,7 @@ header {
   color: black;
   padding: 1px;
   width: 100%;
-  height: auto;
+  min-height: 100vh
 }
 span{
   background-color: transparent;
@@ -33,6 +33,7 @@ h2 {
   color: white;
   font-style: italic;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 p {
   padding-left: 300px;
@@ -51,6 +52,7 @@ h3 {
   color: white;
   font-style: italic;
   padding-top: 50px;
+  padding-bottom: 20px;
 }
 h4 {
   text-align: center;
