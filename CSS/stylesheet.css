@@ -3,9 +3,10 @@ header {
   background: url(https://data1.ibtimes.co.in/en/full/613326/mongol-rally.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 100vh;
   color: black;
   padding: 1px;
+  width: 100%;
+  height: auto;
 }
 span{
   background-color: transparent;
