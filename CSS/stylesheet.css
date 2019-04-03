@@ -1,3 +1,8 @@
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+
+}
 header {
   font-family: helvetica;
   background: url(https://data1.ibtimes.co.in/en/full/613326/mongol-rally.jpg);
