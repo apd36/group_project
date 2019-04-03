@@ -22,6 +22,8 @@ h1 {
   font-family: helvetica;
   color: black;
   font-weight: bold;
+  margin-top: 400px;
+  font-style: italic;
 }
 h2 {
   text-align: center;
@@ -63,9 +65,10 @@ h4 {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
+  margin-top: 20px;
   height: 220px;
   border: 2px solid black;
-  border-radius:360px;
+  border-radius: 10% / 50%;
 }
 ul {
   list-style-type: none;
